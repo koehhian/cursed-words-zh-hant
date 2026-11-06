@@ -6,7 +6,7 @@ $ErrorActionPreference='Stop'
 python (Join-Path $PSScriptRoot 'build_resources.py')
 if($LASTEXITCODE -ne 0){throw '打包資料失敗'}
 New-Item -ItemType Directory -Force (Join-Path $PSScriptRoot '..\distribution') | Out-Null
-$args=@('/noconfig','/nologo','/target:winexe','/optimize+','/codepage:65001',('/out:'+(Join-Path $PSScriptRoot '..\distribution\CursedWords_一鍵繁中化.exe')),'/reference:System.dll','/reference:System.Core.dll','/reference:System.Drawing.dll','/reference:System.Windows.Forms.dll')
+$args=@('/noconfig','/nologo','/target:winexe','/optimize+','/codepage:65001',('/out:'+(Join-Path $PSScriptRoot '..\distribution\CursedWordsZHant.exe')),'/reference:System.dll','/reference:System.Core.dll','/reference:System.Drawing.dll','/reference:System.Windows.Forms.dll')
 foreach($name in @('assembly','helper','translations','dictionary','license')){
  $args+='/resource:'+(Join-Path $PSScriptRoot ('installer-resources\'+$name+'.gz'))+',CWZh.'+$name
 }

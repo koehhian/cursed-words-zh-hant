@@ -1,6 +1,6 @@
 {
   "tag": "v2026.11.07",
-  "installer": "distribution/CursedWords_一鍵繁中化.exe",
+  "installer": "distribution/CursedWordsZHant.exe",
   "sha256": "9836062afc5e9b974aedfcc44539a9142734990bfa3c17761333a8962a1ce1ee",
   "gameVersion": "4.12"
 }

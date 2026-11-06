@@ -26,7 +26,7 @@
 
 1. 自行安裝 [Steam 版 Cursed Words](https://store.steampowered.com/app/3856460/)，並關閉遊戲。
 2. 從 [Releases](https://github.com/koehhian/cursed-words-zh-hant/releases/latest) 下載 Windows ZIP 並解壓縮。
-3. 執行 `CursedWords_一鍵繁中化.exe`，確認遊戲資料夾，按「一鍵中文化」，完成後從 Steam 啟動。
+3. 執行 `CursedWordsZHant.exe`，確認遊戲資料夾，按「一鍵中文化」，完成後從 Steam 啟動。
 
 ![一鍵安裝與還原工具](docs/screenshots/installer.png)
 
