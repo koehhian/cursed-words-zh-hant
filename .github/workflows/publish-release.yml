@@ -22,4 +22,6 @@ jobs:
         run: |
           TAG=$(python -c "import json; print(json.load(open('release.json'))['tag'])")
           gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --target "$GITHUB_SHA" --title "Cursed Words 繁體中文化與離線辭典 $TAG" --notes-file RELEASE_NOTES.md
+          gh release edit "$TAG" --notes-file RELEASE_NOTES.md
+          gh release delete-asset "$TAG" CursedWords_.exe --yes >/dev/null 2>&1 || true
           gh release upload "$TAG" dist/release/* --clobber
