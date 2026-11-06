@@ -1,0 +1,8 @@
+backup/
+payload/Assembly-CSharp.dll
+source/CursedWordsZh.dll
+source/installer-resources/
+source/__pycache__/
+dist/
+*.sav
+*.log

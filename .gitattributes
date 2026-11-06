@@ -1,0 +1,5 @@
+* text=auto eol=lf
+payload/** -text -whitespace
+distribution/** -text
+*.png binary
+*.dll binary

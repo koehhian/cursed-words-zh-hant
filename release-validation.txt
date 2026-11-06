@@ -1,0 +1,7 @@
+﻿PASS: all embedded payload SHA-256 checks
+PASS: installation from an unmodified game
+PASS: repeat installation
+PASS: installed dictionary, translations and helper
+PASS: exact restoration of original assembly
+PASS: unsupported versions rejected without mutation
+PASS: offline dictionary contains more than 300,000 entries
